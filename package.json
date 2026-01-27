@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "yaml-language-server": "^1.19.2"
+  }
+}

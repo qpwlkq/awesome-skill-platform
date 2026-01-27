@@ -1,0 +1,40 @@
+# Binaries
+bin/
+server
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+*.test
+coverage.txt
+*.out
+
+# Docs
+README.md
+docs/
+
+# Frontend (if monorepo)
+skill-platform/
+.next/
+node_modules/

@@ -1,0 +1,20 @@
+# Docker Compose override for development
+# Copy this file to docker-compose.override.yml to use development settings
+
+version: '3.8'
+
+services:
+  # Mount source code for hot reload (development only)
+  api:
+    volumes:
+      - .:/app
+    working_dir: /app
+    # Use go run for development instead of compiled binary
+    command: ["go", "run", "cmd/server/main.go"]
+    environment:
+      GIN_MODE: debug
+
+  # MySQL with exposed ports for external access
+  mysql:
+    ports:
+      - "3306:3306"  # Allow external MySQL access for development tools

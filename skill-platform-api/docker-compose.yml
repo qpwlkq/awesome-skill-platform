@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: skill-platform-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: skill_platform
+      MYSQL_USER: skill_user
+      MYSQL_PASSWORD: skill_password
+      TZ: Asia/Shanghai
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./migrations:/docker-entrypoint-initdb.d:ro
+    networks:
+      - skill-platform-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD$$"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Go Backend API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skill-platform-api
+    restart: unless-stopped
+    environment:
+      # Server configuration
+      SERVER_PORT: 8080
+
+      # Database configuration
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: skill_user
+      DB_PASSWORD: skill_password
+      DB_NAME: skill_platform
+
+      # Application environment
+      GIN_MODE: release
+      TZ: Asia/Shanghai
+    ports:
+      - "8080:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - skill-platform-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8080/api/v1/skills"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Nginx Reverse Proxy (optional - comment out if not needed)
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: skill-platform-nginx
+  #   restart: unless-stopped
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./nginx/ssl:/etc/nginx/ssl:ro
+  #   depends_on:
+  #     - api
+  #   networks:
+  #     - skill-platform-network
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  skill-platform-network:
+    driver: bridge

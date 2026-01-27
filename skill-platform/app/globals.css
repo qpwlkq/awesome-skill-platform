@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-page: #050505;
+    --color-bg-card: #121212;
+    --color-bg-surface: #1A1A1A;
+    --color-bg-hover: #242424;
+    --color-border-subtle: #1A1A1A;
+    --color-border-divider: #242424;
+  }
+
+  * {
+    border-color: var(--color-border-subtle);
+  }
+
+  body {
+    background-color: var(--color-bg-page);
+  }
+
+  /* 确保卡片和表面元素有明显对比 */
+  .bg-bg-card {
+    background-color: var(--color-bg-card) !important;
+  }
+
+  .bg-bg-surface {
+    background-color: var(--color-bg-surface) !important;
+  }
+
+  .bg-bg-hover {
+    background-color: var(--color-bg-hover) !important;
+  }
+
+  .border-border-subtle {
+    border-color: var(--color-border-subtle) !important;
+  }
+
+  .border-border-divider {
+    border-color: var(--color-border-divider) !important;
+  }
+
+  /* 文本颜色加强 */
+  .text-text-primary {
+    color: #E5E5E5 !important;
+  }
+
+  .text-text-secondary {
+    color: #8A8A8A !important;
+  }
+
+  .text-text-tertiary {
+    color: #525252 !important;
+  }
+
+  .text-text-muted {
+    color: #4A4A4A !important;
+  }
+
+  .text-terminal-amber {
+    color: #F59E0B !important;
+  }
+
+  .text-terminal-green {
+    color: #22C55E !important;
+  }
+}
