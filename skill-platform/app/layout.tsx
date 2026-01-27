@@ -4,8 +4,9 @@ import { JetBrains_Mono } from "next/font/google";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
   variable: "--font-mono",
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${jetbrainsMono.variable} font-mono bg-bg-page`} style={{ backgroundColor: '#0C0C0C' }}>
+      <body className={`${jetbrainsMono.variable} font-mono`} suppressHydrationWarning>
         {children}
       </body>
     </html>
