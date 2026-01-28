@@ -1,0 +1,1500 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "MsjkV",
+      "x": 0,
+      "y": 0,
+      "name": "Skill Platform - Home Page",
+      "width": 1600,
+      "height": 1000,
+      "fill": "#050505",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6mN97",
+          "name": "Sidebar",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#050505",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            32,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZeZHa",
+              "name": "Logo Section",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JHvDf",
+                  "name": "Tilde Icon",
+                  "fill": "#22C55E",
+                  "content": "~",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y39kq",
+                  "name": "Logo Text",
+                  "fill": "#E5E5E5",
+                  "content": "skill_hub",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "VHCgT",
+                  "name": "Logo Accent",
+                  "fill": "#22C55E",
+                  "width": 8,
+                  "height": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q3Tm1",
+              "name": "Navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fx1Zx",
+                  "name": "Active Nav Item",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0W4Vw",
+                      "name": "Nav Arrow",
+                      "fill": "#22C55E",
+                      "content": ">",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M5gPb",
+                      "name": "Nav Text",
+                      "fill": "#22C55E",
+                      "content": "explore",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jZ14c",
+                  "name": "Nav Item 1",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3OG1b",
+                      "name": "Space",
+                      "content": " ",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aitW5",
+                      "name": "Nav Text",
+                      "fill": "#8A8A8A",
+                      "content": "my_skills",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "99xat",
+                  "name": "Nav Item 2",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ae2ts",
+                      "name": "Space",
+                      "content": " ",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aCszZ",
+                      "name": "Nav Text",
+                      "fill": "#8A8A8A",
+                      "content": "shared",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9xen3",
+                  "name": "Nav Item 3",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PCS98",
+                      "name": "Space",
+                      "content": " ",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "efDm9",
+                      "name": "Nav Text",
+                      "fill": "#8A8A8A",
+                      "content": "favorites",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uvAgf",
+              "name": "User Account",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Hcf2B",
+                  "name": "User Card",
+                  "width": "fill_container",
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "gap": 12,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gkq4e",
+                      "name": "Avatar",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VlyJY",
+                          "name": "Initials",
+                          "fill": "#8A8A8A",
+                          "content": "JD",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sW2Q1",
+                      "name": "User Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yhNeJ",
+                          "name": "Username",
+                          "fill": "#E5E5E5",
+                          "content": "john_doe",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "06Fon",
+                          "name": "Email",
+                          "fill": "#525252",
+                          "content": "john@dev.io",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kmqI0",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            32,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "AF7h9",
+              "name": "Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "powof",
+                  "name": "Title Section",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "49vqw",
+                      "name": "Breadcrumb",
+                      "fill": "#525252",
+                      "content": "~/skills",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JK4VE",
+                      "name": "Page Title",
+                      "fill": "#E5E5E5",
+                      "content": "skill_hub",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lenGM",
+                      "name": "Subtitle",
+                      "fill": "#525252",
+                      "content": "// discover & share skills",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N97PK",
+                  "name": "Actions",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cgw0a",
+                      "name": "Search Button",
+                      "height": 36,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vOQBO",
+                          "name": "Search Icon",
+                          "fill": "#525252",
+                          "content": "🔍",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ceUxm",
+                          "name": "Search Text",
+                          "fill": "#525252",
+                          "content": "search...",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5iGMH",
+                          "name": "Shortcut",
+                          "fill": "#4A4A4A",
+                          "content": "⌘K",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NwEDD",
+                      "name": "Filter Button",
+                      "height": 36,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zL2wq",
+                          "name": "Filter Icon",
+                          "fill": "#525252",
+                          "content": "⚡",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mUSY4",
+                          "name": "Filter Text",
+                          "fill": "#525252",
+                          "content": "[--filter]",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uZTIw",
+                      "name": "Primary Button",
+                      "height": 36,
+                      "fill": "#22C55E",
+                      "cornerRadius": 6,
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aJ4fb",
+                          "name": "Primary Text",
+                          "fill": "#000000",
+                          "content": "+ new_skill()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z4k1X",
+              "name": "Metrics Grid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k3WHx",
+                  "name": "Metric Card 1",
+                  "width": "fill_container",
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wE34Q",
+                      "name": "Label",
+                      "fill": "#525252",
+                      "content": "total_skills",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OTA8i",
+                      "name": "Value",
+                      "fill": "#E5E5E5",
+                      "content": "1,284",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CJieF",
+                      "name": "Change",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AAkaT",
+                          "name": "Arrow",
+                          "fill": "#22C55E",
+                          "content": "↑",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mxXUy",
+                          "name": "Percent",
+                          "fill": "#22C55E",
+                          "content": "+12.5%",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y9i2R",
+                  "name": "Metric Card 2",
+                  "width": "fill_container",
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "12ssG",
+                      "name": "Label",
+                      "fill": "#525252",
+                      "content": "published",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UnK7K",
+                      "name": "Value",
+                      "fill": "#E5E5E5",
+                      "content": "847",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VJXWY",
+                      "name": "Change",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0VPGh",
+                          "name": "Arrow",
+                          "fill": "#22C55E",
+                          "content": "↑",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AB6a7",
+                          "name": "Percent",
+                          "fill": "#22C55E",
+                          "content": "+8.3%",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QiUqL",
+                  "name": "Metric Card 3",
+                  "width": "fill_container",
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gtytY",
+                      "name": "Label",
+                      "fill": "#525252",
+                      "content": "total_downloads",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2R2Hb",
+                      "name": "Value",
+                      "fill": "#E5E5E5",
+                      "content": "24.6k",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pcn8k",
+                      "name": "Change",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5uN9l",
+                          "name": "Arrow",
+                          "fill": "#22C55E",
+                          "content": "↑",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e2b2d",
+                          "name": "Percent",
+                          "fill": "#22C55E",
+                          "content": "+23.1%",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VtIjH",
+                  "name": "Metric Card 4",
+                  "width": "fill_container",
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9eNnP",
+                      "name": "Label",
+                      "fill": "#525252",
+                      "content": "stars_received",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pOUiv",
+                      "name": "Value",
+                      "fill": "#E5E5E5",
+                      "content": "5,892",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0H2Xl",
+                      "name": "Change",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZVhBE",
+                          "name": "Arrow",
+                          "fill": "#22C55E",
+                          "content": "↑",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B3jk7",
+                          "name": "Percent",
+                          "fill": "#22C55E",
+                          "content": "+15.7%",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R6DHs",
+              "name": "Featured Skills Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Usbuh",
+                  "name": "Featured Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LaB9D",
+                      "name": "Title Group",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u5n5J",
+                          "name": "Featured Title",
+                          "fill": "#E5E5E5",
+                          "content": "featured_skills",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kg0yO",
+                          "name": "Featured Subtitle",
+                          "fill": "#525252",
+                          "content": "// trending this week",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bZXgd",
+                      "name": "View All Link",
+                      "fill": "#22C55E",
+                      "content": "view_all()",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uU3UI",
+                  "name": "Featured Skills Grid",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6rLbS",
+                      "name": "Skill Card 1",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ldlZX",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#1F3A2A",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Vx7Ym",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Pw5JY",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "code_review",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ev4f3",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "11QCz",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "code_reviewer",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "3CKLP",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// AI-powered code review assistant for PRs",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Hkqci",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ndRpc",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@sarah_dev",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "15j8j",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 342",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I74QE",
+                      "name": "Skill Card 2",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zSsCl",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#1A2A3F",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "my6Eb",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "d2vFk",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "testing",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7QjK4",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WulLs",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "test_generator",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jvTDL",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// Auto-generate unit tests from source code",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mg7Dt",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wKppC",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@mike_eng",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3HY6Q",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 218",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RiZQC",
+                      "name": "Skill Card 3",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KoplI",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#3A2A1A",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rfMDh",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "JI7Cj",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "devops",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DbdW4",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YB9X4",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "deploy_helper",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RExtu",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// Streamline CI/CD pipeline configurations",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Xf204",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wXLcb",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@lisa_ops",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AssOs",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 156",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IqUum",
+              "name": "All Skills Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MZjFf",
+                  "name": "All Skills Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yjOFR",
+                      "name": "Title Group",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mychR",
+                          "name": "All Skills Title",
+                          "fill": "#E5E5E5",
+                          "content": "all_skills",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EqSBx",
+                          "name": "All Skills Subtitle",
+                          "fill": "#525252",
+                          "content": "// browse community contributions",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "EttOR",
+                      "name": "Results Count",
+                      "fill": "#525252",
+                      "content": "1,284 results",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dN2a9",
+                  "name": "All Skills Grid",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ldwex",
+                      "name": "Skill Card 4",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NhKxj",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#2A1A3A",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HWapP",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "J32Ul",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "database",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P3by5",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lgHOg",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "sql_optimizer",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bRLxw",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// Optimize SQL queries for better performance",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kgDl6",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "jWGcS",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@db_master",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "JtuWe",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 89",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ieRHQ",
+                      "name": "Skill Card 5",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KYp5M",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#1A3A2A",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "PGPCM",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lwWkS",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "documentation",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w6BCP",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q8WNF",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "doc_writer",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dnyGD",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// Generate technical documentation from code",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7Yt8V",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vYQ9I",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@tech_writer",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "gdYJq",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 67",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tNUaN",
+                      "name": "Skill Card 6",
+                      "width": 280,
+                      "fill": "#121212",
+                      "cornerRadius": 6,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xZyyn",
+                          "name": "Card Header",
+                          "width": "fill_container",
+                          "height": 100,
+                          "fill": "#3A1A1A",
+                          "layout": "vertical",
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fMej4",
+                              "name": "Tag",
+                              "fill": "#1A1A1A",
+                              "cornerRadius": 4,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "9j9Ii",
+                                  "name": "Tag Text",
+                                  "fill": "#22C55E",
+                                  "content": "security",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U7Msq",
+                          "name": "Card Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bBuGk",
+                              "name": "Skill Title",
+                              "fill": "#E5E5E5",
+                              "content": "vuln_scanner",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CmnCE",
+                              "name": "Description",
+                              "fill": "#525252",
+                              "content": "// Scan code for security vulnerabilities",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0uoLu",
+                              "name": "Card Footer",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CuRfL",
+                                  "name": "Author",
+                                  "fill": "#8A8A8A",
+                                  "content": "@sec_expert",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "eV1Kd",
+                                  "name": "Stars",
+                                  "fill": "#F59E0B",
+                                  "content": "★ 134",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
