@@ -48,3 +48,5 @@ Thumbs.db
 # Claude AI
 .claude/settings.local.json
 .joycode
+
+skill-platform/.next/
